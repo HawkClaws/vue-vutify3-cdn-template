@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=], initial-scale=1.0">
+  <title>vue-vutify3-cdn-template</title>
+  <link href="https://unpkg.com/vuetify@3.0.6/dist/vuetify.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+</head>
+
+<body>
+  <div id="app">
+    <v-app>
+      <v-content>
+        <v-container>
+          <v-row>
+            <v-col>
+              <v-card>
+                <v-card-title>
+                  sample page
+                </v-card-title>
+                <v-card-text>
+                  Describe the content here.
+                </v-card-text>
+              </v-card>
+            </v-col>
+          </v-row>
+        </v-container>
+      </v-content>
+    </v-app>
+  </div>
+  <script src="https://unpkg.com/vue@3.2.45"></script>
+  <script src="https://unpkg.com/vuetify@3.0.6"></script>
+
+  <script>
+
+    const vuetify = Vuetify.createVuetify();
+    const app = Vue.createApp({
+      data() {
+        return {
+
+        }
+      },
+      mounted() {
+
+      },
+      methods: {
+
+      },
+    }).use(vuetify).mount('#app');
+  </script>
+  <style>
+
+  </style>
+</body>
+
+</html>
